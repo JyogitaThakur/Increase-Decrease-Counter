@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;600;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+body{
+    background: lightblue;
+}
+.container{
+    box-shadow: 3px 4px 4px grey;
+    max-width: 1500px;
+    width: 90%;
+    margin: 11vh auto;
+    text-align: center;
+    padding: 20vh 0;
+    background: white;
+}
+
+.container h1, .container h2{
+    padding: 0.5em;
+    font-size: 2rem;
+}
+
+.container h3{
+    font-size: 4rem;
+    font-family: cursive;
+}
+.container p{
+    font-size: 6rem;
+}
+.container button{
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+button{
+    box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	cursor:pointer;
+	color:#fff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px -2px 0px #3d768a;
+}
+Button:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+Button:active {
+	position:relative;
+	top:1px;
+}
+
+@media (max-width : 500px){
+    body{
+        background: lightblue;
+    }
+    .container h1{
+        font-size: 1.2rem;
+    }
+    .container h3{
+        font-size: 1.5rem;
+    }
+    button{
+        font-size:14px;
+    }
+
+}
